@@ -1,0 +1,65 @@
+h1 {
+	text-align: center;
+}
+
+.post {
+	width: 80%;
+	text-align: center;
+	margin: auto;
+}
+
+textarea {
+	width: 100%;
+	font-size: 20px;
+	font-family: 'Playfair Display';
+	border-radius: 0 10px 0 10px;
+	outline: none;
+	min-height: 100px;
+}
+
+input[type='submit'] {
+	padding: 8px 15px;
+	font-size: 18px;
+	font-family: 'Playfair Display';
+}
+
+input[type='file'] {
+	padding: 8px 15px;
+	font-size: 18px;
+	font-family: 'Playfair Display';
+}
+
+input[type='text'] {
+	width: 90%;
+	padding: 8px 15px;
+	font-size: 18px;
+	font-family: 'Playfair Display';
+}
+
+h2 {
+	float: right;
+	margin-top: -10px;
+	margin-right: 30px;
+}
+h2 a {
+	color: #000;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+
+	.post {
+		width: 90%;
+		text-align: center;
+		margin: auto;
+	}
+	h1 {
+		font-size: 28px;
+	}
+	h2 {
+		font-size: 22px;
+		margin-right: 10px;
+	}
+	textarea {
+	}
+}

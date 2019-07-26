@@ -1,0 +1,374 @@
+body {
+	width: 100%;
+	font-family: 'Playfair Display';
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+
+p {
+	line-height: 1.5;
+}
+
+
+header {
+	background: rgba(0,0,0,0.8);
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+header a {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+}
+header nav {
+	text-align: center;
+}
+
+
+.desktop_landing {
+	text-align: center;
+	font-family: 'Playfair Display';
+	color: #fff;
+	z-index: 12;
+	color: #000;
+	margin-top: -100px;
+	top: 100px;
+	font-size: 42px;
+}
+
+
+@media screen and (min-width: 768px) {
+	header a {
+	padding: 18px 20px;
+	}
+	header span {
+	display: none;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	.desktop_landing {
+		display: none;
+	}
+	.icon {
+		padding: 15px;
+		padding-right: 20px;
+		float: right;
+		color: #fff;
+		display: block;
+	}
+	header {
+		width: 100%;
+		position: fixed;
+		background: rgb(18,18,18);
+		z-index: 2;
+	}
+	header a {
+		text-align: left;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		font-size: 18px;
+		width: 100%;
+		border-bottom: 0.5px solid rgb(250,250,250);
+		width: 80%;
+	}
+	.header_show {
+		height: 100%;
+		background: rgb(18,18,18);
+	}
+	.navmenu a {
+		display: none;
+	}
+	.navmenu span {
+		display: none;
+	}
+	.showmenu {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.background_video {
+		display: none;
+	}
+
+	.landing {
+		width: 100%;
+		height: 600px;
+		background: rgb(18,18,18);
+		background-attachment: fixed;
+		color: #fff;
+	}
+	.landing span {
+		text-align: center;
+	}
+
+	.landing span h1 {
+		font-family: 'Playfair Display';
+  		font-style: italic;
+  		font-weight: 700;
+  		font-size: 30px;
+	}
+	.landing span p {
+		font-family: 'Playfair Display';
+  		font-style: normal;
+	    font-weight: 500;
+	    font-size: 30px;
+	}
+	.landing span {
+		padding-top: 30px;
+		padding-left: 20px;
+		padding-right: 20px;
+		text-align: center;
+		font-size: 20px;
+		color: #fff;
+		display: block;
+	}
+	.landing span h1 {
+		position: absolute;
+		margin-top: 
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+	.landing span {
+		display: none;
+	}
+	.background_video {
+		right: 0;
+		bottom: 0;
+		min-width: 100%;
+		min-height: 100%;
+		width: 100%;
+		height: auto;
+		z-index: -1;
+		background-attachment: fixed;
+	}
+}
+
+.sloped_div1 {
+	height: 50px;
+	width: 100%;
+	background: rgb(255,255,255);
+	margin-top: -30px;
+	transform: rotate(-2deg);
+}
+
+@media screen and (max-width: 768px) {
+	.about {
+		padding-top: 5px;
+	  	padding-top: 5px;
+		margin-top: 20px;
+		overflow: auto;
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+	}
+	.about p {
+		font-size: 20px;
+	}
+	.about h1 {
+		font-size: 30px;
+		text-align: center;
+	}
+	.about h1 a{
+		color: #000000;
+		text-align: center;
+		text-decoration: none;
+	}
+	
+}
+
+
+@media screen and (min-width: 768px) {
+	.about {
+		padding-top: 5px;
+		text-align: center;
+	  	padding-top: 5px;
+		margin-top: 20px;
+		overflow: auto;
+	}
+
+	.about h1 {
+		text-align: center;
+		font-size: 42px;
+	}
+
+	.about h1 a{
+		color: #000000;
+		text-align: center;
+		font-size: 40px;
+		text-decoration: none;
+	}
+
+	.about p {
+		font-size: 22px;
+	}
+
+	.about_left_div {
+		float: left;
+		margin-left: 10%;
+		margin-right: 5%;
+		width: 35%;
+		font-size: 20px;
+	}
+
+	.about_right_div {
+		text-align: left;
+		float: right;
+		width: 35%;
+		margin-right: 10%;
+		margin-left: 5%;
+		font-size: 20px;
+	}
+}
+
+
+.sloped_div2 {
+	background: rgb(255,255,255);
+	height: 70px;
+	width: 99%;
+	transform: rotate(-2deg);
+	margin-bottom: -20px;
+}
+
+/*Faculty*/
+
+.faculty_outer {
+	background: rgb(250,250,250);
+	padding-top: 50px;
+	text-align: center;
+	overflow: auto;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.faculty_outer h1 {
+	font-size: 42px;
+}
+
+.faculty_div {
+	display: inline-block;
+	text-align: center;
+	float: left;
+	width: 31%;
+	padding: 10px;
+}
+
+.faculty_img {
+	margin: auto;
+	display: block;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	padding: auto;
+}
+
+.faculty_img img {
+	padding: auto;
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 250px;
+}
+
+
+.faculty_details a {
+	text-decoration: none;
+	color: #000;
+}
+
+@media screen and (max-width: 768px) {
+
+	.faculty_outer h1 {
+		font-size: 30px;
+	}
+
+	.faculty_div {
+		display: inline-block;
+		text-align: center;
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+		padding: 10px;
+	}
+}
+
+.robotics {
+	background: url(../img/drone.jpeg) no-repeat center center;
+	background-attachment: fixed;
+	height: 800px;
+}
+
+
+footer  {
+	width: 100%;
+	overflow: auto;
+	color: snow;
+	background-color: rgb(18,19,21);
+	padding-top: 15px;
+	padding-bottom: 15px;	
+}
+
+.fa-facebook {
+	padding: 10px 14px;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+
+.fa-instagram {
+	padding: 10px 14px;
+}
+.fa-instagram hover {
+	font-size: 100px;
+}
+
+.fa-google-plus {
+    padding:10px 9px;
+}
+.fa-google-plus:hover {
+    background-color: #e25714;
+}
+
+.footer_div {
+	float: left;
+	width: 30%;
+	margin-left: 3%;
+}
+
+.map {
+	width: 80%;
+	height: 200px;
+	background: #fff;
+}
+
+@media screen and (max-width: 768px) {
+	.map {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.footer_div {
+		text-align: center;
+		width: 100%;
+		margin-left: 0px;
+	}
+}
+
+.footer_below {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: snow;
+	background-color: rgb(11,12,14);
+	margin: auto;
+}
+
+.footer_below p {
+	text-align: center;
+}

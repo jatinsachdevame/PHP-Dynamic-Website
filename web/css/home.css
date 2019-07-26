@@ -1,0 +1,64 @@
+body {
+	background: rgb(234,235,239);
+	font-family: 'Playfair Display';
+}
+
+.main {
+	width: 505;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.post {
+	background: #fff;
+	border-radius: 5px;
+	padding: 10px;
+	padding-top: 1px;
+	margin-bottom: 10px;
+}
+
+.head img {
+	float: left;
+	width: 45px;
+	height: 45px;
+	border-radius: 100px;
+}
+
+.head h3 {
+	text-align: left;
+	float: left;
+	margin-left: 0px;
+}
+
+.head h1 {
+	float: left;
+}
+
+
+.content h3 {
+	text-align: justify;
+}
+
+.content img {
+	width: 100%;
+	
+}
+
+.video {
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: 100%;
+	height: auto;
+	z-index: -1;
+	background-attachment: fixed;
+}
+
+@media screen and (max-width: 768px) {
+	.main {
+		width: 100%;
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+}

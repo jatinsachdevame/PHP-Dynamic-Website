@@ -1,0 +1,48 @@
+h1 {
+	text-align: center;
+}
+
+.edit_form {
+	width: 90%;
+	text-align: center;
+	margin-left: 5%;
+	margin-right: 5%;
+	overflow: auto;
+}
+
+.edit_form h2 {
+	float: left;
+}
+
+textarea {
+	width: 100%;
+	float: right;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid rgb(150,150,150);
+	font-size: 18px;
+	font-family: 'Playfair Display';
+}
+
+
+input[type='submit'] {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 10px 20px;
+	font-family: 'Playfair Display';
+	font-size: 18px;
+}
+
+input[type='file'] {
+	width: 100%;
+	padding: 8px 15px;
+	font-size: 18px;
+	font-family: 'Playfair Display';
+}
+
+.edit h2 {
+	float: right;
+	color: #000;
+	text-decoration: none;
+}

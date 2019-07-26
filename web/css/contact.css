@@ -1,0 +1,174 @@
+.contact {
+	text-align: center;
+	margin: auto;
+	color: #fff;
+	background-color: rgb(0,0,0);
+	width: 800px;
+}
+
+.contact h1 {
+	padding-top: 20px;
+	font-size: 42px;
+	color: rgb(5,190,190);
+}
+.contact_form {
+	padding-bottom: 20px;
+}
+
+.contact_form input[type="text"] {
+	font-size: 22px;
+	width: 90%;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #fff;
+	padding: 10px;
+	background-color: #000;
+	color: rgb(0,190,190);
+	font-family: 'Playfair Display';
+}
+
+.contact_form input[type="email"] {
+	margin-top: 30px;
+	font-size: 22px;
+	width: 90%;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #fff;
+	padding: 10px;
+	background-color: #000;
+	color: rgb(0,190,190);
+	font-family: 'Playfair Display';
+}
+
+.contact_form input[type="submit"] {
+	font-family: 'Playfair Display';
+	border: none;
+	margin-top: 40px;
+	padding: 10px 30px;
+	color: #fff;
+	background-color: rgb(3, 158, 158);
+} 
+
+.contact_form input[type="submit"]:hover{
+	background-color: rgb(0,190,190);
+}
+.contact_form input[type="text"]:hover {
+	background-color: #000;
+	border-top: none;
+	border-bottom: 1px solid rgb(5,190,190);
+}
+.contact_form input[type="email"]:hover {
+	background-color: #000;
+	border-top: none;
+	border-bottom: 1px solid rgb(5,190,190);
+}
+
+
+
+.contact_form textarea {
+	margin-top: 40px;
+	font-size: 22px;
+	width: 91%;
+	padding-left: 1%;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background-color: #000;
+	color: rgb(0,190,190);
+	font-family: 'Playfair Display';
+}
+
+.contact_form textarea:hover {
+	background-color: #000;
+	border-top: none;
+	border-bottom: 1px solid rgb(5,190,190);
+}
+
+#contact {
+	background: #000;
+}
+
+@media screen and (max-width: 768px) {
+		.contact {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		text-align: center;
+		color: #fff;
+		background-color: rgb(0,0,0);
+	}
+
+	.contact h1 {
+		padding-top: 20px;
+		font-size: 42px;
+		color: rgb(5,190,190);
+	}
+	.contact_form {
+		padding-bottom: 20px;
+	}
+
+	.contact_form input[type="text"] {
+		font-size: 22px;
+		width: 90%;
+		outline: none;
+		border: none;
+		border-bottom: 1px solid #fff;
+		border-radius: 0 0 0 12px;
+		background-color: #000;
+		color: rgb(0,190,190);
+		font-family: 'Playfair Display';
+	}
+
+	.contact_form input[type="email"] {
+		font-size: 22px;
+		width: 90%;
+		outline: none;
+		border: none;
+		border-bottom: 1px solid #fff;
+		border-radius: 0 0 0 15px;
+		background-color: #000;
+		color: rgb(0,190,190);
+		font-family: 'Playfair Display';
+	}
+
+	.contact_form input[type="submit"] {
+		font-family: 'Playfair Display';
+		border: none;
+		margin-top: 10px;
+		padding: 10px 30px;
+		color: #fff;
+		background-color: rgb(3, 158, 158);
+	} 
+
+	.contact_form input[type="submit"]:hover{
+		background-color: rgb(0,190,190);
+	}
+	.contact_form input[type="text"]:hover {
+		background-color: #000;
+		border-top: none;
+		border-bottom: 1px solid rgb(5,190,190);
+	}
+	.contact_form input[type="email"]:hover {
+		background-color: #000;
+		border-top: none;
+		border-bottom: 1px solid rgb(5,190,190);
+	}
+
+	.contact_form textarea:hover {
+		background-color: #000;
+		border-top: none;
+		border-bottom: 1px solid rgb(5,190,190);
+	}
+
+	.contact_form textarea {
+		font-size: 22px;
+		width: 90%;
+		background-color: #000;
+		color: rgb(0,190,190);
+		font-family: 'Playfair Display';
+		outline: none;
+		border: none;
+		border-bottom: 1px solid #fff;
+		border-radius: 0 0 0 15px;
+	}
+}

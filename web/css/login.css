@@ -1,0 +1,159 @@
+body {
+	background: rgb(0,0,0);
+}
+
+.login {
+	text-align: center;
+	margin: auto;
+	color: #fff;
+	background-color: rgb(0,0,0);
+	width: 800px;
+}
+
+.login h1 {
+	padding-top: 20px;
+	font-size: 42px;
+	color: rgb(5,190,190);
+}
+
+
+.login_form input[type="text"] {
+	font-size: 22px;
+	width: 90%;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #fff;
+	padding: 10px;
+	background-color: #000;
+	color: rgb(0,190,190);
+	font-family: 'Playfair Display';
+}
+
+.login_form input[type="password"] {
+	margin-top: 30px;
+	font-size: 22px;
+	width: 90%;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #fff;
+	padding: 10px;
+	background-color: #000;
+	color: rgb(0,190,190);
+	font-family: 'Playfair Display';
+}
+
+.login_form input[type="submit"] {
+	font-size: 20px;
+	font-family: 'Playfair Display';
+	border: none;
+	margin-top: 40px;
+	padding: 10px 30px;
+	color: #fff;
+	background-color: rgb(3, 158, 158);
+} 
+
+.login_form input[type="submit"]:hover{
+	background-color: rgb(0,190,190);
+}
+.login_form input[type="text"]:hover {
+	background-color: #000;
+	border-top: none;
+	border-bottom: 1px solid rgb(5,190,190);
+}
+.login_form input[type="password"]:hover {
+	background-color: #000;
+	border-top: none;
+	border-bottom: 1px solid rgb(5,190,190);
+}
+
+.login a {
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Playfair Display';
+	font-size: 22px;
+}
+
+@media screen and (max-width: 768px) {
+		.login {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+		text-align: center;
+		color: #fff;
+		background-color: rgb(0,0,0);
+	}
+
+	.login h1 {
+		padding-top: 20px;
+		font-size: 42px;
+		color: rgb(5,190,190);
+	}
+	.login_form {
+		padding-bottom: 20px;
+	}
+
+	.login_form input[type="text"] {
+		font-size: 22px;
+		width: 90%;
+		outline: none;
+		border: none;
+		border-bottom: 1px solid #fff;
+		border-radius: 0 0 0 12px;
+		background-color: #000;
+		color: rgb(0,190,190);
+		font-family: 'Playfair Display';
+	}
+
+	.login_form input[type="password"] {
+		font-size: 22px;
+		width: 90%;
+		outline: none;
+		border: none;
+		border-bottom: 1px solid #fff;
+		border-radius: 0 0 0 15px;
+		background-color: #000;
+		color: rgb(0,190,190);
+		font-family: 'Playfair Display';
+	}
+
+	.login_form input[type="submit"] {
+		font-family: 'Playfair Display';
+		border: none;
+		margin-top: 10px;
+		padding: 10px 30px;
+		color: #fff;
+		background-color: rgb(3, 158, 158);
+	} 
+
+	.login_form input[type="submit"]:hover{
+		background-color: rgb(0,190,190);
+	}
+	.login_form input[type="text"]:hover {
+		background-color: #000;
+		border-top: none;
+		border-bottom: 1px solid rgb(5,190,190);
+	}
+	.login_form input[type="password"]:hover {
+		background-color: #000;
+		border-top: none;
+		border-bottom: 1px solid rgb(5,190,190);
+	}
+
+	.login_form textarea:hover {
+		background-color: #000;
+		border-top: none;
+		border-bottom: 1px solid rgb(5,190,190);
+	}
+
+	.login_form textarea {
+		font-size: 22px;
+		width: 90%;
+		background-color: #000;
+		color: rgb(0,190,190);
+		font-family: 'Playfair Display';
+		outline: none;
+		border: none;
+		border-bottom: 1px solid #fff;
+		border-radius: 0 0 0 15px;
+	}
+}
